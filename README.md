@@ -58,9 +58,10 @@ to drive the specific interactions of a given benchmark.
 
 ## Getting Started
 
-This project is dependent on the com.bolour.util.util library which is 
-built in a separate project. Until this dependency makes it to public
-maven repositories, the source for it needs to be cloned and built locally.
+This project is dependent on the com.bolour.util.util library which is built in
+a separate project. Until this dependency makes it to public maven repositories
+(very shortly), you may clone https://github.com/azadbolour/util.git and build
+it locally.
 
 - Create specific personas and states and provide code teh interactions
   available from each state for each persona.
