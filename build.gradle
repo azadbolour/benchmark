@@ -1,0 +1,10 @@
+allprojects  {
+  group = 'com.bolour.benchmark'
+  version = '0.1-SNAPSHOT'
+  
+  repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+  }
+}
