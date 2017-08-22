@@ -6,3 +6,5 @@ target/
 *.log
 logs/
 branch.sh
+build/
+.gradle/
