@@ -6,11 +6,17 @@
 
     <groupId>com.bolour.benchmark</groupId>
     <artifactId>top</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Benchmark</name>
 
+    <scm>
+      <url>https://github.com/azadbolour/benchmark</url>
+      <connection>scm:git:git://github.com/azadbolour/benchmark.git</connection>
+      <developerConnection>scm:git://github.com/azadbolour/benchmark.git</developerConnection>
+    </scm>
+ 
     <properties>
         <java.version>1.8</java.version>
         <junit.version>4.12</junit.version>
