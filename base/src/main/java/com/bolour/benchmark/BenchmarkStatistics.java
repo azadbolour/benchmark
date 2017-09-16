@@ -34,7 +34,7 @@ public class BenchmarkStatistics {
      * @param interaction
      *            The interaction.
      * @param latency
-     *            The latency of the interaction.
+     *            The latency of the interaction in milliseconds.
      */
     public void addLatency(AbstractBenchmarkState state, BenchmarkInteraction interaction, long latency) {
         // Latency only makes sense if there was an interaction.
