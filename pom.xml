@@ -4,12 +4,12 @@
                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bolour.benchmark</groupId>
-    <artifactId>top</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <groupId>com.bolour.util</groupId>
+    <artifactId>benchmark-parent</artifactId>
+    <version>0.2</version>
     <packaging>pom</packaging>
 
-    <name>Benchmark</name>
+    <name>Benchmark Parent</name>
 
     <scm>
       <url>https://github.com/azadbolour/benchmark</url>
@@ -23,7 +23,7 @@
     </properties>
 
     <modules>
-        <module>base</module>
+        <module>benchmark</module>
         <module>demo</module>
     </modules>
 </project>
